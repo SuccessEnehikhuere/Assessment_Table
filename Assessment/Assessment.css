@@ -13,29 +13,32 @@ table{
 
 td, th, tr{
   height:50px;
-  /* width:500px; */
+  width:500px;
 }
+
 th,td{
   background-color: rgb(240 240 240);
 }
+
 .header{
   background-color: rgb(41, 162, 158);
   color:white;
   font-size: 12px;
   font-family:Arial, Helvetica, sans-serif;
 }
+
 td{
   text-align: center;
-  font-size:12px;
+  font-size:10px;
   font-family:Arial, Helvetica, sans-serif;
 }
-/* 
+
 .first{
-  /* width:10%;
+  width:10%;
   height:20px;
   background-color: pink;
   padding:0;
-} */ */
+}
 
 
 
@@ -53,3 +56,11 @@ td:hover{
     font-size:18px;
   }
 } 
+@media screen and (min-width:1200px) {
+  td{
+    font-size:18px;
+  }
+  .header{
+    font-size:20px;
+  }
+}

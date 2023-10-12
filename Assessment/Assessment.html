@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>MyFirstAssessment</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="./Assessment.css">
   
 </head>
 <body>
   <section class="container">
-    <table>
-      <tr>
-        <th class="header first">S.No</th>
-        <th class="header">NAME</th>
-        <th class="header">AGE</th>
-        <th class="header">CITY</th>
-        <th class="header">OCCUPATION</th>
-        <th class="header">GENDER</th>
-      </tr>
-      <tr>
+    <table id="table">
+      <thead>
+       <tr>
+        <th class="header first">ID</th>
+        <th class="header">FULL NAME</th>
+        <th class="header">USER NAME</th>
+        <th class="header">EMAIL</th>
+        <th class="header">PHONE NUMBER</th>
+        <th class="header">WEBSITE</th>
+      </tr> 
+      </thead> 
+      <tbody class="table-body"></tbody>
+      <!-- <tr>
         <td class="first">1</td>
         <td>Simon</td>
         <td>25</td>
@@ -179,10 +182,11 @@
         <td>Atlanta </td>
         <td>Dancer</td>
         <td>Female</td>
-      </tr>
+      </tr> -->
 
     </table>
   </section>
+  <script src="Assessment.js"></script>
   
 </body>
 </html>
